@@ -29,3 +29,35 @@ img {
   height: 90px;
   object-fit: cover;
 }
+
+button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+dialog {
+  width: 80%;
+  max-width: 700px;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  background-color: white;
+}
+
+dialog h2 {
+  margin-top: 0;
+}
+
+dialog img,
+dialog video {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+dialog button {
+  padding: 8px 16px;
+}
