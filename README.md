@@ -18,3 +18,5 @@ If you are developing a production application, we recommend using TypeScript wi
 
 Open [Hooks App](https://users.metropolia.fi/~aashiqr/hooks/) to view it in the browser.
 Open [Custom Hooks App](https://users.metropolia.fi/~aashiqr/custom-hooks/) to view it in the browser.
+Open [Forms App](https://users.metropolia.fi/~aashiqr/forms/) to view it in the browser.
+Open [Context App](https://users.metropolia.fi/~aashiqr/context/) to view it in the browser.

@@ -1,13 +1,7 @@
-import {useNavigate} from 'react-router';
+import {useUserContext} from '../hooks/contextHooks';
 
 const Logout = () => {
-  const navigate = useNavigate();
-
-  const handleLogout = () => {
-    localStorage.removeItem('token');
-    console.log('Logged out. Token removed.');
-    navigate('/');
-  };
+  const {handleLogout} = useUserContext();
 
   return (
     <>
